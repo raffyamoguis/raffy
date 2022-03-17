@@ -9,10 +9,10 @@ import pr5 from '../img/pr-5.jpg'
 import pr6 from '../img/pr-6.jpg'
 
 export default class Header extends React.Component {
-    componentDidMount() {
-        appendScript("../js/modernizr.js");
-        appendScript("../js/toucheffect.js");
-    }
+    // componentDidMount() {
+    //     appendScript("../js/modernizr.js");
+    //     appendScript("../js/toucheffect.js");
+    // }
     render() {
         return (
             <div className="container-fluid recent-work text-center">
