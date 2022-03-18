@@ -200,8 +200,11 @@ div.footer {
 }
 
 @media only screen and (max-width: 1300px) {
-    .over, .over-on {
+    .over {
         width: 800px;
+    }
+    .over-on {
+        width: 1000px;
     }
     #toggle-btn {
         margin: 0 auto !important;
@@ -209,18 +212,39 @@ div.footer {
     }
 }
 
+@media only screen and (max-width: 990px) {
+    .over-on {
+        width: 800px;
+    }
+    div.investing {
+        margin-top: 20em !important;
+    }
+}
+
 @media only screen and (max-width: 800px) {
-    .over, .over-on {
+    .over {
         width: 600px;
     }
     
+    .over-on {
+        width: 800px;
+    }
 
     div.recent-work {
         margin-top: 15em !important;
     }
 
     div.investing {
-        margin-top: 10em !important;
+        margin-top: 23em !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .over-on {
+        width: 500px
+    }
+    div.investing {
+        margin-top: 37em !important;
     }
 }
 
@@ -233,6 +257,9 @@ div.footer {
     div.recent-work {
         margin-top: 15em !important;
     }
+    div.investing {
+        margin-top: 40em !important;
+    }
 }
 
 
@@ -240,6 +267,9 @@ div.footer {
     .ico-footer {
         font-size: 20pt;
         width:55px;
+    }
+    div.investing {
+        margin-top: 40em !important;
     }
 }
 
@@ -251,7 +281,7 @@ div.footer {
         margin-top: 20em !important;
     }
     div.investing {
-        margin-top: 15em !important;
+        margin-top: 45em !important;
     }
     
 }

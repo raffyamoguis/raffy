@@ -13,8 +13,7 @@ const Header = () => {
             <div className="intro container-fluid">
                 <div className="p-5">
                     <h2 className="f-b">Hi I'm, Raffy. Nice to meet you.</h2>
-                    <h6>Lorem ipsum dolor sit amet</h6>
-                    <h6>Lorem ipsum dolor sit amet</h6>
+                    <p>I'm quietly confident, naturally curious, and perpetually working on improving my chops one design problem at a time.</p>
                 </div>
             </div>
         </>
