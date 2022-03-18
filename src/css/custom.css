@@ -28,12 +28,18 @@ body {
 
 .ico-footer {
     font-size: 30pt;
-    outline-style: solid !important;
-    outline-color: #EDEDED !important;
+    /* outline-style: solid !important; */
+    border: 2px solid #EDEDED !important;
     color: #EDEDED !important;
     text-align: center;
-    width: 75px;
+    width: 76px;
     margin-right: 10px;
+}
+
+.ico-footer:hover {
+    background: #EDEDED;
+    color: #DA0037 !important;
+    border: 0 !important;
 }
 
 .rybtn {
@@ -146,7 +152,7 @@ div.footer {
 
 .over-on {
     position: relative;
-    top: -100px;
+    top: -150px;
     /* border: thin solid #DA0037; */
     border-radius: 20px;
     width: 1200px;

@@ -21,7 +21,7 @@ const OngoingProjects = () => {
 
                         <div class="col-md-6 col-lg-4">
                             <div class="card-box text-center p-5">
-                                <img src={bikeshop} />
+                                <img src={bikeshop} width='86' height='86' />
                                 <h3 className='mt-1'>BikeShop</h3>
                                 <p class="text-secondary">An e-commerce bikeshop that has functionality an e-commerce website, login, cart, etc.</p>
                                 <h6 className="card-subtitle mb-2 text-muted"><i className="bi bi-gear it-5"></i>In Development</h6>
@@ -31,7 +31,7 @@ const OngoingProjects = () => {
 
                         <div class="col-md-6 col-lg-4">
                             <div class="card-box text-center p-5">
-                                <img src={youtubed} />
+                                <img src={youtubed} width='86' height='86' />
                                 <h3 className='mt-1'>Youtube Downloader</h3>
                                 <p class="text-secondary">A youtbe downloader web app built with youtube downloader api.</p>
                                 <h6 className="card-subtitle mb-2 text-muted"><i className="bi bi-gear it-5"></i>In Development</h6>
