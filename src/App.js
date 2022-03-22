@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import Navbar from './component/Navbar'
 import Header from './component/Header'
 import Intro from './component/Intro'
@@ -6,8 +6,10 @@ import Projects from './component/Projects'
 import OngoingProjects from './component/OngoingProjects'
 import Footer from './component/Footer'
 
+
 function App() {
   return (
+
     <>
       <Navbar />
       <Header />
@@ -31,6 +33,7 @@ function App() {
 
       <Footer />
     </>
+
   );
 }
 

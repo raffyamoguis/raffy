@@ -34,9 +34,9 @@ export default class Header extends React.Component {
                         <figure>
                             <img src={pr2} alt="img04" />
                             <figcaption>
-                                <h3>Lorem</h3>
-                                <span></span>
-                                <a className="visit" href="http://dribbble.com/shots/1116685-Settings">Visit<i
+                                <h3>Weeb Hub</h3>
+                                <span>A social site for anime lovers</span>
+                                <a className="visit" href="https://weeb-hub.netlify.app/">Visit<i
                                     className="bi bi-chevron-right is-5"></i></a>
                             </figcaption>
                         </figure>
