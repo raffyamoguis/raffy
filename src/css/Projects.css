@@ -31,7 +31,7 @@
 	top: 0;
 	left: 0;
 	padding: 20px;
-	background: #2c3f52;
+	background: #d1d1e9;
 	/* background: #444444; */
 	/* color: #ed4e6e; */
 }
@@ -39,7 +39,7 @@
 .grid figcaption h3 {
 	margin: 0;
 	padding: 0;
-	color: #fff;
+	color: #2b2c34;
 }
 
 .grid figcaption span {
@@ -54,7 +54,7 @@
 	/* background: #ed4e6e;
 	color: #fff; */
 	border: 2px solid black;
-	background: #2c3f52;
+	background: #d1d1e9;
 	color: black;
 	text-decoration: none;
 	/* outline-style: solid !important;
@@ -63,13 +63,15 @@
 }
 
 .grid figcaption .visit {
-	border-color: #ed4e6e;
-	color: #ed4e6e; 
+	/* border-color: #ed4e6e;
+	color: #ed4e6e;  */
+	border-color: #6246ea;
+	color: #6246ea;
 }
 
 .grid figcaption .visit:hover {
-	background: #ed4e6e;
-	color: #EDEDED; 
+	background: #6246ea;
+	color: #fffffe; 
 }
 
 /* Individual Caption Styles */

@@ -1,7 +1,42 @@
+@font-face {
+	font-family: 'proxima_nova_rgregular';
+	src: url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.eot');
+	src: url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.woff') format('woff'),
+		 url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.ttf') format('truetype'),
+		 url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.svg#proxima_nova_rgregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'proxima_nova_rgbold';
+	src: url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.eot');
+	src: url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.woff') format('woff'),
+		 url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.ttf') format('truetype'),
+		 url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.svg#proxima_nova_rgbold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'adelle_rgregular';
+	src: url('https://litmus.com/fonts/Emails/adelle_reg-webfont.eot');
+	src: url('https://litmus.com/fonts/Emails/adelle_reg-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('https://litmus.com/fonts/Emails/adelle_reg-webfont.woff') format('woff'),
+		 url('https://litmus.com/fonts/Emails/adelle_reg-webfont.ttf') format('truetype'),
+		 url('https://litmus.com/fonts/Emails/adelle_reg-webfont.svg#adelle_rgregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+/* h1{
+   font-family: 'proxima_nova_rgbold', Helvetica, Arial, sans-serif;
+} */
+
 body {
-    background-color: #171717 !important;
-    color: #EDEDED;
-    font-family: 'Poppins', sans-serif;
+    background-color: #fffffe !important;
+    color: #2b2c34;
+    font-family: 'proxima_nova_rgregular', Helvetica, Arial, sans-serif;
 }
 
 .f-b {
@@ -17,11 +52,11 @@ body {
 }
 
 .color-secondary {
-    color: #DA0037;
+    color: #6246ea;
 }
 
 .ico {
-    color: #DA0037;
+    color: #6246ea;
     font-size: 45pt;
     font-weight: bold;
 }
@@ -38,25 +73,25 @@ body {
 
 .ico-footer:hover {
     background: #EDEDED;
-    color: #DA0037 !important;
+    color: #6246ea !important;
     border: 0 !important;
 }
 
 .rybtn {
     border: 2px solid black;
-    background-color: #171717;
-    color: #171717;
+    background-color: #fffffe;
+    color: #fffffe;
     border-radius: 20px;
 }
 
 .rybtn-primary{
-    border-color: #DA0037;
-    color: #DA0037;
+    border-color: #6246ea;
+    color: #6246ea;
 }
 
 .rybtn-primary:hover{
-    background: #DA0037;
-    color: #EDEDED;
+    background: #6246ea;
+    color: #fffffe;
 }
 
 .btn-say-hello {
@@ -88,8 +123,12 @@ input[type="button"]:focus {
     border: none !important;
 }
 
+.navbar-toggler:hover {
+    color: #6246ea;
+}
+
 .navbar-toggler i {
-    color: #EDEDED !important;
+    color: #2b2c34 !important;
 }
 
 div.header {
@@ -97,16 +136,22 @@ div.header {
 }
 
 div.intro {
-    margin-top: 5em !important;
+    margin-top: 7em !important;
     text-align: center;
-    background-color: #DA0037 !important;
+    background-color: #6246ea !important;
+    color: #fffffe;
     height: 400px;
+}
+
+div.intro.p-5 {
+    margin-top: 10em !important;
 }
 
 div.footer {
     /* margin-top: 5em !important; */
     text-align: center;
-    background-color: #DA0037 !important;
+    background-color: #6246ea !important;
+    color: #fffffe;
     height: 500px;
 }
 
@@ -146,7 +191,7 @@ div.footer {
     /* background: url(...); */
     background-repeat: no-repeat;
     background-position: bottom;
-    background-color: #171717;
+    background-color: #fffffe;
     text-align: center;
 }
 
@@ -194,8 +239,8 @@ div.footer {
     margin-bottom: 30px;
     float: left;
     border-radius: 10px;
-    background: #171717 !important;
-    color: #EDEDED !important;
+    background: #fffffe !important;
+    color: #272343 !important;
     position: relative;
 }
 
