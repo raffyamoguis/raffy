@@ -1,22 +1,34 @@
 import React from 'react'
 import '../css/custom.css'
 import Brand from '../img/RAFFY.png'
+import { Link, useLocation } from 'react-router-dom'
+
+
 
 const Navbar = () => {
+    const currentLocation = useLocation();
+
+    const iconHomeStyle = {
+        fontSize: '30pt',
+        color: '#6246ea',
+    }
+
     return (
         <nav className="navbar navbar-expand-lg py-4">
             <div className="container">
-                <a className="navbar-brand" href>
-                    <img src={Brand} alt="" class="rounded-circle" width="60" height="60" />
-                </a>
+                <Link to='/'>
+                    <a className="navbar-brand">
+                        <img src={Brand} alt="" class="rounded-circle" width="60" height="60" />
+                    </a>
+                </Link>
                 <button className="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
                     aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                     {/* <!-- <span class="navbar-toggler-icon"></span> --> */}
-                    <i className="bi bi-list"></i>
+                    {currentLocation.pathname === '/message' || currentLocation.pathname === '/success' ? '' : <i className="bi bi-list"></i>}
                 </button>
                 <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul className="navbar-nav ms-auto">
-                        <button id='toggle-btn' className="btn btn-md rybtn rybtn-primary" type>Say Hello</button>
+                        {currentLocation.pathname === '/message' || currentLocation.pathname === '/success' ? <Link to='/'><i style={iconHomeStyle} class="bi bi-x"></i></Link> : <Link to='/message'><button id='toggle-btn' className="btn btn-md rybtn rybtn-primary" >Message Me</button></Link>}
                     </ul>
                 </div>
             </div>
