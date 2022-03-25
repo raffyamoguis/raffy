@@ -15,7 +15,7 @@ export default class Header extends React.Component {
                 <p>Here are some projects I worked on recently.</p>
                 <ul className="grid cs-style-1">
                     <li>
-                        <figure>
+                        <figure >
                             <img src={pr1} alt="img02" />
                             <figcaption>
                                 <h3>Digita</h3>
