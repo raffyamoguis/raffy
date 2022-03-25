@@ -31,7 +31,8 @@
 	top: 0;
 	left: 0;
 	padding: 20px;
-	background: #d1d1e9;
+	/* background: #d1d1e9; */
+	background: #141C3A;
 	/* background: #444444; */
 	/* color: #ed4e6e; */
 }
@@ -39,12 +40,12 @@
 .grid figcaption h3 {
 	margin: 0;
 	padding: 0;
-	color: #2b2c34;
+	color: #fffffe;
 }
 
 .grid figcaption span {
 	/* content: 'View Source '; */
-	color: rgb(143, 143, 143)
+	color: #fffffe;
 }
 
 .grid figcaption a {
@@ -54,7 +55,7 @@
 	/* background: #ed4e6e;
 	color: #fff; */
 	border: 2px solid black;
-	background: #d1d1e9;
+	background: #141C3A;
 	color: black;
 	text-decoration: none;
 	/* outline-style: solid !important;

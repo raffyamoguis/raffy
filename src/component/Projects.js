@@ -13,14 +13,14 @@ export default class Header extends React.Component {
             <div className="container-fluid recent-work text-center">
                 <h2 className="f-b">My Recent Work</h2>
                 <p>Here are some projects I worked on recently.</p>
-                <ul className="grid cs-style-2">
+                <ul className="grid cs-style-1">
                     <li>
                         <figure>
                             <img src={pr1} alt="img02" />
                             <figcaption>
                                 <h3>Digita</h3>
                                 <span>Online Digital Shop</span>
-                                <a className="visit" href="https://digitashop.netlify.app">Visit<i
+                                <a className="visit" href="https://digitashop.netlify.app">Visit Website<i
                                     className="bi bi-chevron-right is-5"></i></a>
                             </figcaption>
                         </figure>
@@ -31,7 +31,7 @@ export default class Header extends React.Component {
                             <figcaption>
                                 <h3>Weeb Hub</h3>
                                 <span>A social site for anime lovers</span>
-                                <a className="visit" href="https://weeb-hub.netlify.app/">Visit<i
+                                <a className="visit" href="https://weeb-hub.netlify.app/">Visit Website<i
                                     className="bi bi-chevron-right is-5"></i></a>
                             </figcaption>
                         </figure>
@@ -42,7 +42,7 @@ export default class Header extends React.Component {
                             <figcaption>
                                 <h3>Lorem</h3>
                                 <span></span>
-                                <a className="visit" href="http://dribbble.com/shots/1118904-Game-Center">Visit<i
+                                <a className="visit" href="http://dribbble.com/shots/1118904-Game-Center">Visit Website<i
                                     className="bi bi-chevron-right is-5"></i></a>
                             </figcaption>
                         </figure>
@@ -53,7 +53,7 @@ export default class Header extends React.Component {
                             <figcaption>
                                 <h3>Lorem</h3>
                                 <span></span>
-                                <a className="visit" href="http://dribbble.com/shots/1116775-Safari">Visit<i
+                                <a className="visit" href="http://dribbble.com/shots/1116775-Safari">Visit Website<i
                                     className="bi bi-chevron-right is-5"></i></a>
                             </figcaption>
                         </figure>
@@ -64,7 +64,7 @@ export default class Header extends React.Component {
                             <figcaption>
                                 <h3>Lorem</h3>
                                 <span></span>
-                                <a className="visit" href="http://dribbble.com/shots/1117308-Phone">Visit<i
+                                <a className="visit" href="http://dribbble.com/shots/1117308-Phone">Visit Website<i
                                     className="bi bi-chevron-right is-5"></i></a>
                             </figcaption>
                         </figure>
@@ -75,7 +75,7 @@ export default class Header extends React.Component {
                             <figcaption>
                                 <h3>Lorem</h3>
                                 <span></span>
-                                <a className="visit" href="http://dribbble.com/shots/1115632-Camera">Visit<i
+                                <a className="visit" href="http://dribbble.com/shots/1115632-Camera">Visit Website<i
                                     className="bi bi-chevron-right is-5"></i></a>
                             </figcaption>
                         </figure>
