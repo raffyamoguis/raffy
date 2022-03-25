@@ -1,5 +1,4 @@
 import React from 'react'
-import { appendScript } from './util/appendScript'
 import '../css/Projects.css'
 import pr1 from '../img/pr-1.png'
 import pr2 from '../img/pr-2.png'
@@ -9,10 +8,6 @@ import pr5 from '../img/pr-5.jpg'
 import pr6 from '../img/pr-6.jpg'
 
 export default class Header extends React.Component {
-    // componentDidMount() {
-    //     appendScript("../js/modernizr.js");
-    //     appendScript("../js/toucheffect.js");
-    // }
     render() {
         return (
             <div className="container-fluid recent-work text-center">

@@ -271,6 +271,9 @@ div.footer {
     div.investing {
         margin-top: 20em !important;
     }
+    .navbar-collapse {
+        text-align: center;
+    }
 }
 
 @media only screen and (max-width: 800px) {
