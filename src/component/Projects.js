@@ -20,7 +20,7 @@ export default class Header extends React.Component {
                             <figcaption>
                                 <h3>Digita</h3>
                                 <span>Online Digital Shop</span>
-                                <a className="visit" href="https://digitashop.netlify.app">Visit Website<i
+                                <a className="visit" href="https://digitashop.netlify.app" target='_blank' rel="noreferrer noopener">Visit Website<i
                                     className="bi bi-chevron-right is-5"></i></a>
                             </figcaption>
                         </figure>
@@ -31,7 +31,7 @@ export default class Header extends React.Component {
                             <figcaption>
                                 <h3>Weeb Hub</h3>
                                 <span>A social site for anime lovers</span>
-                                <a className="visit" href="https://weeb-hub.netlify.app/">Visit Website<i
+                                <a className="visit" href="https://weeb-hub.netlify.app/" target='_blank' rel="noreferrer noopener">Visit Website<i
                                     className="bi bi-chevron-right is-5"></i></a>
                             </figcaption>
                         </figure>
@@ -42,7 +42,7 @@ export default class Header extends React.Component {
                             <figcaption>
                                 <h3>Lorem</h3>
                                 <span></span>
-                                <a className="visit" href="http://dribbble.com/shots/1118904-Game-Center">Visit Website<i
+                                <a className="visit" href target='_blank' rel="noreferrer noopener">Visit Website<i
                                     className="bi bi-chevron-right is-5"></i></a>
                             </figcaption>
                         </figure>
@@ -53,7 +53,7 @@ export default class Header extends React.Component {
                             <figcaption>
                                 <h3>Lorem</h3>
                                 <span></span>
-                                <a className="visit" href="http://dribbble.com/shots/1116775-Safari">Visit Website<i
+                                <a className="visit" href target='_blank' rel="noreferrer noopener">Visit Website<i
                                     className="bi bi-chevron-right is-5"></i></a>
                             </figcaption>
                         </figure>
@@ -64,7 +64,7 @@ export default class Header extends React.Component {
                             <figcaption>
                                 <h3>Lorem</h3>
                                 <span></span>
-                                <a className="visit" href="http://dribbble.com/shots/1117308-Phone">Visit Website<i
+                                <a className="visit" href target='_blank' rel="noreferrer noopener">Visit Website<i
                                     className="bi bi-chevron-right is-5"></i></a>
                             </figcaption>
                         </figure>
@@ -75,13 +75,13 @@ export default class Header extends React.Component {
                             <figcaption>
                                 <h3>Lorem</h3>
                                 <span></span>
-                                <a className="visit" href="http://dribbble.com/shots/1115632-Camera">Visit Website<i
+                                <a className="visit" href target='_blank' rel="noreferrer noopener">Visit Website<i
                                     className="bi bi-chevron-right is-5"></i></a>
                             </figcaption>
                         </figure>
                     </li>
                 </ul>
-                <button className="btn rybtn rybtn-primary" type>View More on Github</button>
+                <a className="btn rybtn rybtn-primary" href='https://github.com/raffyamoguis' target='_blank' rel="noreferrer noopener">View More on Github</a>
             </div>
         )
     }

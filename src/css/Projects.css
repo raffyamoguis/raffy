@@ -70,7 +70,7 @@
 	color: #6246ea;
 }
 
-.grid figcaption .visit:hover {
+.grid figcaption .visit:hover, .grid figcaption .visit:active {
 	background: #6246ea;
 	color: #fffffe; 
 }
