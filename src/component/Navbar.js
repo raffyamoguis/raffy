@@ -1,5 +1,4 @@
 import React from 'react'
-import '../css/custom.css'
 import Brand from '../img/RAFFY.png'
 import { Link, useLocation } from 'react-router-dom'
 

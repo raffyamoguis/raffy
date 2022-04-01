@@ -4,6 +4,8 @@ import Home from './component/Home'
 import Message from './component/Message'
 import MessageSuccess from './component/MessageSuccess'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import './css/custom.css'
+
 
 function App() {
   return (
