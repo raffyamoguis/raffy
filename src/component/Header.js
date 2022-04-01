@@ -1,26 +1,7 @@
 import React from 'react'
 import logo from '../img/2X2.jpg'
-import { useState, useEffect } from 'react'
 
 const Header = () => {
-    const style = {
-        width: '800px',
-        margin: 'auto'
-    }
-
-    const style1 = {
-        fontSize: '9pt'
-    }
-
-    const [screen, isScreenWide] = useState(true);
-
-    useEffect = () => {
-        console.log(screen.innerWidth);
-    }
-
-    const checkScreen = () => {
-        return window.innerWidth === 800
-    }
 
     return (
         <>
