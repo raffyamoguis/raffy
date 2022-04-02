@@ -29,7 +29,7 @@ const Navbar = () => {
                         <button className="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
                             aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                             {/* <!-- <span class="navbar-toggler-icon"></span> --> */}
-                            <i className="bi bi-list"></i>
+                            <i className='bi bi-list'></i>
                         </button>
                 }
                 {/* <button className="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
