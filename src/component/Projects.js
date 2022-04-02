@@ -12,7 +12,7 @@ export default class Header extends React.Component {
         return (
             <div className="container-fluid recent-work text-center">
                 <h2 className="f-b">My Recent Work</h2>
-                <p>Here are some projects I worked on recently.</p>
+                <h5>Here are some projects I worked on recently.</h5>
                 <ul className="grid cs-style-1">
                     <li>
                         <figure >

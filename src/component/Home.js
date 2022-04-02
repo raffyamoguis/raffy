@@ -14,18 +14,18 @@ const Home = () => {
 
             <div className="intro container-fluid">
                 <div className="p-5">
-                    <h2 className='mt-5'><b>Ongoing Projects</b></h2>
-                    <p>Projects I currenntly working on.</p>
+                    <h2 className='f-b' style={{ marginTop: '3em' }}>Ongoing Projects</h2>
+                    <h5>Projects I currenntly working on.</h5>
                 </div>
             </div>
 
             <OngoingProjects />
 
             <div className="container-fluid text-center investing">
-                <h2><b>Interested in collaborating or investing?</b></h2>
-                <h2>I'm always open to discussing product design or work opportunities,
+                <h2 className='f-b'>Interested in collaborating or investing?</h2>
+                <h3>I'm always open to discussing product design or work opportunities,
                     <a className='color-secondary' target='_blank' rel="noreferrer noopener" href='javascript:void(0)' onClick={() => window.open('https://mail.google.com/mail/?view=cm&fs=1&to=amoguisraffy1@gmail.com&su=*Subject&body=*How can I help you with')}> message me</a>
-                </h2>
+                </h3>
             </div>
 
             <Footer />
