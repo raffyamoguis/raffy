@@ -11,6 +11,11 @@ const Navbar = () => {
         color: '#6246ea',
     }
 
+    const showCloseButton = () => {
+        var menu = document.querySelector('.bi') // Using a class instead, see note below.
+        menu.classList.toggle('bi-x-lg');
+    }
+
     return (
         <nav className={`navbar ${currentLocation.pathname === '/message' || currentLocation.pathname === '/success' ? ' navbar-toggleable-xl' : ' navbar-expand-lg'} py-4`}>
             <div className="container">
@@ -26,7 +31,7 @@ const Navbar = () => {
                                 <Link to='/'><i style={iconHomeStyle} class="bi bi-x"></i></Link>
                             </ul>
                         </div> :
-                        <button className="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                        <button onClick={showCloseButton} className="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
                             aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                             {/* <!-- <span class="navbar-toggler-icon"></span> --> */}
                             <i className='bi bi-list'></i>
