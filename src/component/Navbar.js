@@ -1,10 +1,12 @@
-import React from 'react'
+import React, { useRef, useEffect } from 'react'
 import '../css/custom.css'
 import Brand from '../img/RAFFY.png'
-import { Link, useLocation } from 'react-router-dom'
+import { Link, useLocation, useNavigate } from 'react-router-dom'
 
 const Navbar = () => {
     const currentLocation = useLocation();
+    const history = useNavigate();
+    const navToggler = useRef(null);
 
     const iconHomeStyle = {
         fontSize: '30pt',
@@ -12,9 +14,20 @@ const Navbar = () => {
     }
 
     const showCloseButton = () => {
-        var menu = document.querySelector('.bi') // Using a class instead, see note below.
+        var menu = document.querySelector('.togglerI') // Using a class instead, see note below.
         menu.classList.toggle('bi-x-lg');
     }
+
+    const resetToggler = () => {
+        history('/');
+    }
+
+    useEffect(() => {
+        //Close the toggler
+        if (navToggler.current.classList.contains('show')) {
+            navToggler.current.classList.toggle('show')
+        }
+    })
 
     return (
         <nav className={`navbar ${currentLocation.pathname === '/message' || currentLocation.pathname === '/success' ? ' navbar-toggleable-xl' : ' navbar-expand-lg'} py-4`}>
@@ -27,22 +40,16 @@ const Navbar = () => {
                 {
                     currentLocation.pathname === '/message' || currentLocation.pathname === '/success' ?
                         <div className=''>
-                            <ul className="navbar-nav float-end">
-                                <Link to='/'><i style={iconHomeStyle} class="bi bi-x"></i></Link>
+                            <ul className="navbar-nav float-end" onClick={resetToggler}>
+                                <i style={iconHomeStyle} class="bi bi-x"></i>
                             </ul>
                         </div> :
                         <button onClick={showCloseButton} className="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
                             aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                            {/* <!-- <span class="navbar-toggler-icon"></span> --> */}
-                            <i className='bi bi-list'></i>
+                            <i className='togglerI bi bi-list'></i>
                         </button>
                 }
-                {/* <button className="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
-                    aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                     <!-- <span class="navbar-toggler-icon"></span> --> 
-                    <i className="bi bi-list"></i>
-                </button> */}
-                <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <div className="collapse navbar-collapse" ref={navToggler} id="navbarTogglerDemo02">
                     <ul className="navbar-nav ms-auto">
                         {currentLocation.pathname === '/message' || currentLocation.pathname === '/success' ? '' : <Link to='/message'><button id='toggle-btn' className="btn btn-md rybtn rybtn-primary" >Message Me</button></Link>}
                     </ul>
