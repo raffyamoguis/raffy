@@ -15,7 +15,7 @@ const Header = () => {
             <div className="intro container-fluid">
                 <div className="p-5 a">
                     <h2 className='f-b' style={{ marginTop: '2em' }}>Hi I'm, Raffy. Nice to meet you.</h2>
-                    <h5 className='intro-p' >Since my college days I always love to design and build applications, Ive done several projects that showcase my skills. I'm quietly confident, naturally curious, and perpetually working on improving my chops one design problem at a time.</h5>
+                    <h5 className='intro-p' >A self taught developer, Ive done several projects that showcase my skills. I'm quietly confident, naturally curious, and perpetually working on improving my chops one design problem at a time.</h5>
                 </div>
             </div>
         </>

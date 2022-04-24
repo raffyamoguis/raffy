@@ -40,9 +40,9 @@ export default class Header extends React.Component {
                         <figure>
                             <img src={pr3} alt="img06" />
                             <figcaption>
-                                <h3>Lorem</h3>
-                                <span></span>
-                                <a className="visit" href target='_blank' rel="noreferrer noopener">Visit Website<i
+                                <h3>Gamer Profile</h3>
+                                <span>Gamer profile landing page.</span>
+                                <a className="visit" href='https://gamer-landing.vercel.app' target='_blank' rel="noreferrer noopener">Visit Website<i
                                     className="bi bi-chevron-right is-5"></i></a>
                             </figcaption>
                         </figure>
