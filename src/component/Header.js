@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../img/2X2.jpg'
+import '../css/scrollindicator.css'
 
 const Header = () => {
 
@@ -11,6 +12,20 @@ const Header = () => {
 
                 <img src={logo} className="rounded-circle mt-4" alt="..." width="200" height="200" />
             </div>
+
+            {/* Indicator Here */}
+
+            <div className='text-center'>
+                <a className="link" href="#">
+                    <span className="link__arrow">
+                        <span></span>
+                        <span></span>
+                    </span>
+                    <span className="link__line"></span>
+                    <span className="link__text">Scroll</span>
+                </a>
+            </div>
+
 
             <div className="intro container-fluid">
                 <div className="p-5 a">
