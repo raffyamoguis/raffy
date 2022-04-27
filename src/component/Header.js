@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../img/2X2.jpg'
-import '../css/scrollindicator.css'
+import '../css/mousescrollindicator.css'
 
 const Header = () => {
 
@@ -16,14 +16,17 @@ const Header = () => {
             {/* Indicator Here */}
 
             <div className='text-center'>
-                <a className="link" href="#">
-                    <span className="link__arrow">
-                        <span></span>
-                        <span></span>
-                    </span>
-                    <span className="link__line"></span>
-                    <span className="link__text">Scroll</span>
-                </a>
+                <div class="mouse_scroll">
+
+                    <div class="mouse">
+                        <div class="wheel"></div>
+                    </div>
+                    <div>
+                        <span class="m_scroll_arrows unu"></span>
+                        <span class="m_scroll_arrows doi"></span>
+                        <span class="m_scroll_arrows trei"></span>
+                    </div>
+                </div>
             </div>
 
 
