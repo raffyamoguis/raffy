@@ -12,7 +12,7 @@ const Home = () => {
             <Intro />
             <Projects />
 
-            <div className="intro container-fluid">
+            <div className="intro-ongoing container-fluid">
                 <div className="p-5">
                     <h2 className='f-b' style={{ marginTop: '3em' }}>Ongoing Projects</h2>
                     <h5>Projects I currenntly working on.</h5>

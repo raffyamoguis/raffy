@@ -164,6 +164,15 @@ div.intro {
     height: 500px;
 }
 
+div.intro-ongoing {
+    margin-top: 10em !important;
+    text-align: center !important;
+    justify-content: center !important;
+    background-color: #6246ea !important;
+    color: #fffffe;
+    height: 500px;
+}
+
 div.intro a {
     margin-top: 10em !important;
 }
