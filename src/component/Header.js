@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from '../img/2X2.jpg'
 import '../css/mousescrollindicator.css'
+import { Link } from 'react-scroll'
 
 const Header = () => {
 
@@ -16,21 +17,23 @@ const Header = () => {
             {/* Indicator Here */}
 
             <div className='text-center'>
-                <div class="mouse_scroll">
+                <Link to="intro" spy={true} smooth={true}>
+                    <div class="mouse_scroll">
 
-                    <div class="mouse">
-                        <div class="wheel"></div>
+                        <div class="mouse">
+                            <div class="wheel"></div>
+                        </div>
+                        <div>
+                            <span class="m_scroll_arrows unu"></span>
+                            <span class="m_scroll_arrows doi"></span>
+                            <span class="m_scroll_arrows trei"></span>
+                        </div>
                     </div>
-                    <div>
-                        <span class="m_scroll_arrows unu"></span>
-                        <span class="m_scroll_arrows doi"></span>
-                        <span class="m_scroll_arrows trei"></span>
-                    </div>
-                </div>
+                </Link>
             </div>
 
 
-            <div className="intro container-fluid">
+            <div id='intro' className="intro container-fluid">
                 <div className="p-5 a">
                     <h2 className='f-b' style={{ marginTop: '2em' }}>Hi I'm, Raffy. Nice to meet you.</h2>
                     <h5 className='intro-p' >A self taught developer, Ive done several projects that showcase my skills. I'm quietly confident, naturally curious, and perpetually working on improving my chops one design problem at a time.</h5>
